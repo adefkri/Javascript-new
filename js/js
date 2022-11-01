@@ -1,0 +1,9 @@
+function myFunc() {
+    var resp = confirm('are you sure?');
+    if (resp){
+        alert ("The answer is OK")
+    }
+    else{
+        alert("The answer is cancel")
+    }
+}
